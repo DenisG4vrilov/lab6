@@ -10,9 +10,9 @@ if (tg.MainButton.isVisible) {
 tg.MainButton.hide(); 
 } 
 else { 
-tg.MainButton.setText("Вывести информацию по овену"); 
+tg.MainButton.setText("Вывести информацию по RTX 4090"); 
 item = "1"; 
-tg.MainButton.show(); 
+tg.MainButton.show('https://man-made.ru/articles/luchshie-videokarty-rtx-4090/'); 
 } 
 }); 
 btn2.addEventListener("click", function () { 
@@ -20,7 +20,7 @@ if (tg.MainButton.isVisible) {
 tg.MainButton.hide(); 
 } 
 else { 
-tg.MainButton.setText("Вывести информацию по тельцу"); 
+tg.MainButton.setText("Вывести информацию по RTX 5090"); 
 item = "2"; 
 tg.MainButton.show(); 
 } 
